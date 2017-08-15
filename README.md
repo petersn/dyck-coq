@@ -1,4 +1,4 @@
-## Dyck language proofs in Coq.
+## Dyck-Coq: Dyck language proofs in Coq.
 
 The Dyck language is the language of strings of balanced parens.
 Here we formalize the Dyck language in Coq, and prove some properties about it.

@@ -114,6 +114,10 @@ Definition dyck_checker := dyck_checker_helper 0.
 
 (* We will now work towards proving that dyck_checker is good. *)
 
+Fixpoint 
+
+( ( ) ( ) )
+
 Fixpoint extract_dyck_atom count s accum : String * String :=
   match s with
   | [] => ([], [])
